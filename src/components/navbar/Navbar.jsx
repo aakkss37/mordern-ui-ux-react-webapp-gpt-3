@@ -1,9 +1,13 @@
-import React from 'react'
-import style from './navbar.module.css'
+import React from 'react';
+import './navbar.css';
+// Import icons -> inbuilt in react
+import {RiMenu3Line, RiCloseLin} from 'react-icons/ri';
+
 
 const Nevbar = () => {
         return (
-                <div>Nevbar</div>
+                <div>navbar</div>
+               
         )
 }
 
