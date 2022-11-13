@@ -81,5 +81,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ***************///////////////////////********************
 ***************///////////////////////********************
 
-FOR CSS GREDIENT :- [https://angrytools.com/gradient/]
-FOR ELEMENT ANIMATION :- [http://animista.net]
+### FOR CSS GREDIENT :- [https://angrytools.com/gradient/]
+### FOR ELEMENT ANIMATION :- [http://animista.net]
