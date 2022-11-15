@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import './navbar.css';
 // Import icons -> inbuilt in react
 import {RiMenu3Line, RiCloseLine} from 'react-icons/ri';
-import logo from '../../assets/logo.svg'
+import logo from '../../assets/logo.svg';
 import NavbarMenu from './NavbarMenu';
 
 const Nevbar = () => {
