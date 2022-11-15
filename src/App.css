@@ -31,10 +31,10 @@ a{
 }
 
 .gradient__text{
-  background-color: var(--gradient-text);
-  background-clip: text; 
-  -webkit-background-clop: text;  
-  -webkit-text-fill-color: transparent;
+    background: #AE67FA;
+    background: var(--gradient-text);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .section__padding{
