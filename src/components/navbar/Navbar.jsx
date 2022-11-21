@@ -9,7 +9,6 @@ const Nevbar = () => {
 
         const [toggleMenu, setToggleMenu] = useState(false)
 
-
         return (
                 <div className='gpt3__navbar'>
                         <div className='gpt3__navbar-links'>
@@ -24,6 +23,7 @@ const Nevbar = () => {
                                 <p>Sign-in</p>
                                 <button type='button'>Sign up</button>
                         </div>
+
                         {/* Navbar hamburger */}
                         <div className='gpt3__navbar-menu'>
                                 { 
@@ -38,7 +38,7 @@ const Nevbar = () => {
                                         &&
                                         (
                                                 <div className='gpt3__navbar-menu_container scale-up-center'>
-                                                        <NavbarMenu/>
+                                                        <NavbarMenu onClick={() => setToggleMenu(false)} />
                                                         <div className='gpt3__navbar-menu_container-links-sign'>
                                                                 <p>Sign-in</p>
                                                                 <button type='button'>Sign up</button>
